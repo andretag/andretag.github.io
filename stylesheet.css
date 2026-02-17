@@ -90,16 +90,33 @@ strong {
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 4px 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+}
+
+.sectioncompact p {
+  margin: 0 0 6px 0;
+}
+
+.sectioncompact p:last-child {
+  margin-bottom: 0;
 }
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+.pubimpact {
+  margin: 4px 0 2px 0;
+  color: #444;
+}
+
+.pubimpact + p {
+  margin: 0;
 }
 
 .name {
